@@ -38,4 +38,30 @@ const msg1 = "Hello, " + name2 + "! you are " + age2 + " years old. ";
 const msg2 = `Hello, ${name2}! you are ${age2} years old.`          ;
 
 
-const total = `Price: $${(12.99 * 2).toFixed(2)}`;
+const total = `Price: $${(12.99 * 2).toFixed(2)}` ;
+
+// if / else if / else
+    const score2 = 75;
+if (score2 >=90) {
+    console.log("A");
+} else if (score2 >=80) {
+    console.log("B");
+} else if (score2 >=70) {
+    console.log("C");
+} else {
+    console.log("Below C");
+}
+
+// switch - great for exact matches
+const day = "Monday";
+switch (day) {
+    case "Monday":
+    case "Tuesday":
+        console.log("Start of the week");
+        break;
+    case "Friday":
+        console.log("TGIF!");
+        break;    
+    default:
+        console.log("Midweek");
+}
