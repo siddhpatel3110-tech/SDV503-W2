@@ -24,3 +24,5 @@ msg.slice(7, 17)
 msg.replace("Hello, Hi")
 msg.split(", ")
 " hi ".trim()
+
+console.log(msg.lenght)
