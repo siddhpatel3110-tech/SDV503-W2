@@ -12,7 +12,7 @@ let homeAddress = "69 Washbourn";
 let userage = 20;
 console.log(homeAddress)
 
-const msg = "Hello, Javascript1";
+const msg = "Hello, Javascript!";
 
 msg.length
 msg.toUpperCase()
@@ -26,3 +26,6 @@ msg.split(", ")
 " hi ".trim()
 
 console.log(msg.lenght)
+console.log("the length of the mesg is =" + msg.length)
+
+console.log(msg.toUpperCase())
