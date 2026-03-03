@@ -25,7 +25,17 @@ msg.replace("Hello, Hi")
 msg.split(", ")
 " hi ".trim()
 
-console.log(msg.lenght)
+console.log(msg.length)
 console.log("the length of the mesg is =" + msg.length)
-
+console.log(`The length of message is = ${msg.length}`)
 console.log(msg.toUpperCase())
+
+const name2 = "Siddh";
+const age2 = "19";
+
+const msg1 = "Hello, " + name2 + "! you are " + age2 + " years old. ";
+ 
+const msg2 = `Hello, ${name2}! you are ${age2} years old.`          ;
+
+
+const total = `Price: $${(12.99 * 2).toFixed(2)}`;
