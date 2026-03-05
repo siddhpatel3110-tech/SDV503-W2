@@ -65,3 +65,18 @@ switch (day) {
     default:
         console.log("Midweek");
 }
+
+//arthmetic 5+3//8
+//10-4//6
+//5*3//15 10/2///5 10%3//1
+//2**3//8
+
+//comparison - always prefer ===over ==
+5===5//true 5 !== 3//true (strict: checks value and type)
+5==5//true 5== '5'//false (loose vs strict)
+10>5//true 5>=5//true
+//logical
+true && true //true true && false //false true || true //true !false //true
+//assigment
+let x= 10; x+=5;//15 x-=2;//13 x *=2;//26
+
